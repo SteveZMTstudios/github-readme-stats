@@ -1,8 +1,8 @@
 <p align="center">
  <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
  <h2 align="center">GitHub Readme Stats</h2>
- <p align="center">Get dynamically generated GitHub stats on your READMEs!</p>
-</p>
+ <p align="center">在你的 README 中获取动态生成的 GitHub 统计信息！</p>
+ <p> 注：统计数据和状态来自<a href="https://github.com/anuraghazra/github-readme-stats">原项目</a></p>
   <p align="center">
     <a href="https://github.com/anuraghazra/github-readme-stats/actions">
       <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
@@ -24,24 +24,17 @@
     </a>
     <br />
     <br />
-    <a href="https://vercel.com?utm\_source=github\_readme\_stats\_team\&utm\_campaign=oss">
-      <img src="./powered-by-vercel.svg"/>
-    </a>
   </p>
 
   <p align="center">
-    <a href="#all-demos">View Demo</a>
+    <a href="#全部-demos">查看 Demo</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Report Bug</a>
+    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">报告 Bug</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Request Feature</a>
-    ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/discussions/1770">FAQ</a>
-    ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/discussions/new?category=q-a">Ask Question</a>
+    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">请求增加功能</a>
   </p>
   <p align="center">
-    <a href="/docs/readme_fr.md">Français </a>
+    <a href="/docs/readme_fr.md">Français</a>
     ·
     <a href="/docs/readme_cn.md">简体中文</a>
     ·
@@ -56,399 +49,160 @@
     <a href="/docs/readme_it.md">Italiano</a>
     ·
     <a href="/docs/readme_kr.md">한국어</a>
-    ·
+    .
     <a href="/docs/readme_nl.md">Nederlands</a>
-    ·
+    .
     <a href="/docs/readme_np.md">नेपाली</a>
-    ·
+    .
     <a href="/docs/readme_tr.md">Türkçe</a>
   </p>
 </p>
+<p align="center">喜欢这个项目？请考虑<a href="https://www.paypal.me/anuraghazra">捐赠原始项目</a>来帮助它完善！
 
-<p align="center">Please note that documentation translations may be outdated; try to use English documentation if possible.</p>
+# 特性 <!-- omit in toc -->
 
-<p align="center">Love the project? Please consider <a href="https://www.paypal.me/anuraghazra">donating</a> to help it improve!</p>
-
-<a href="https://indiafightscorona.giveindia.org">
-  <img src="https://cfstatic.give.do/logo.png" alt="Give india logo" width="200" />
-</a>
-
-Are you considering supporting the project by donating to me? Please DO NOT!!!
-
-<img src="https://cfstatic.give.do/910ede2a-7892-43fe-8c8a-dea45e96d950.webp" alt="Picture of Coromandel Express train tragedy" width="35%">
-
-India has recently suffered one of the most devastating train accidents, and your help will be immensely valuable for the people who were affected by this tragedy.
-
-Please visit [this link](https://give.do/fundraisers/stand-beside-the-victims-of-the-coromandel-express-train-tragedy-in-odisha-donate-now) and make a small donation to help the people in need. A small donation goes a long way. :heart:
-
-</p>
-
-# Features <!-- omit in toc -->
-
-- [GitHub Stats Card](#github-stats-card)
-    - [Hiding individual stats](#hiding-individual-stats)
-    - [Showing additional individual stats](#showing-additional-individual-stats)
-    - [Showing icons](#showing-icons)
-    - [Themes](#themes)
-    - [Customization](#customization)
-- [GitHub Extra Pins](#github-extra-pins)
-    - [Usage](#usage)
+- [GitHub 统计卡片](#github-统计卡片)
+    - [隐藏指定统计](#隐藏指定统计)
+    - [将私人项目贡献添加到总提交计数中](#将私人项目贡献添加到总提交计数中)
+    - [显示图标](#显示图标)
+    - [主题](#主题)
+    - [自定义](#自定义)
+- [GitHub 更多置顶](#github-更多置顶)
+    - [使用细则](#使用细则)
     - [Demo](#demo)
-- [GitHub Gist Pins](#github-gist-pins)
-    - [Usage](#usage-1)
+- [热门语言卡片](#热门语言卡片)
+    - [使用细则](#使用细则-1)
+    - [隐藏指定语言](#隐藏指定语言)
+    - [紧凑的语言卡片布局](#紧凑的语言卡片布局)
     - [Demo](#demo-1)
-- [Top Languages Card](#top-languages-card)
-    - [Usage](#usage-2)
-    - [Language stats algorithm](#language-stats-algorithm)
-    - [Exclude individual repositories](#exclude-individual-repositories)
-    - [Hide individual languages](#hide-individual-languages)
-    - [Show more languages](#show-more-languages)
-    - [Compact Language Card Layout](#compact-language-card-layout)
-    - [Donut Chart Language Card Layout](#donut-chart-language-card-layout)
-    - [Donut Vertical Chart Language Card Layout](#donut-vertical-chart-language-card-layout)
-    - [Pie Chart Language Card Layout](#pie-chart-language-card-layout)
-    - [Hide Progress Bars](#hide-progress-bars)
-    - [Demo](#demo-2)
-- [WakaTime Stats Card](#wakatime-stats-card)
-    - [Demo](#demo-3)
-- [All Demos](#all-demos)
-  - [Quick Tip (Align The Cards)](#quick-tip-align-the-cards)
-- [Deploy on your own](#deploy-on-your-own)
-  - [On Vercel](#on-vercel)
-    - [:film\_projector: Check Out Step By Step Video Tutorial By @codeSTACKr](#film_projector-check-out-step-by-step-video-tutorial-by-codestackr)
-  - [On other platforms](#on-other-platforms)
-  - [Disable rate limit protections](#disable-rate-limit-protections)
-  - [Keep your fork up to date](#keep-your-fork-up-to-date)
-- [:sparkling\_heart: Support the project](#sparkling_heart-support-the-project)
+    - [全部 Demos](#全部-demos)
+    - [快速提示 (对齐 Repo 卡片)](#快速提示-对齐-repo-卡片)
+  - [自己部署](#自己部署)
+  - [:sparkling\_heart: 支持这个项目](#sparkling_heart-支持这个项目)
 
-# Important Notices <!-- omit in toc -->
+# GitHub 统计卡片
 
-> [!IMPORTANT]\
-> Since the GitHub API only [allows 5k requests per hour per user account](https://docs.github.com/en/graphql/overview/resource-limitations), the public Vercel instance hosted on `https://github-readme-stats.vercel.app/api` could possibly hit the rate limiter (see [#1471](https://github.com/anuraghazra/github-readme-stats/issues/1471)). We use caching to prevent this from happening (see https://github.com/anuraghazra/github-readme-stats#common-options). You can turn off these rate limit protections by deploying [your own Vercel instance](#disable-rate-limit-protections).
+将这行代码复制到你的 markdown 文件中，就是如此简单！
 
-<img alt="Uptime Badge" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fgithub-readme-stats-git-monitoring-github-readme-stats-team.vercel.app%2Fapi%2Fstatus%2Fup%3Ftype%3Dshields">
-
-> [!IMPORTANT]\
-> We're a small team, and to prioritize, we rely on upvotes :+1:. We use the Top Issues dashboard for tracking community demand (see [#1935](https://github.com/anuraghazra/github-readme-stats/issues/1935)). Do not hesitate to upvote the issues and pull requests you are interested in. We will work on the most upvoted first.
-
-# GitHub Stats Card
-
-Copy and paste this into your markdown, and that's it. Simple!
-
-Change the `?username=` value to your GitHub username.
+更改 `?username=` 的值为你的 GitHub 用户名。
 
 ```md
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
-> [!WARNING]\
-> By default, the stats card only shows statistics like stars, commits, and pull requests from public repositories. To show private statistics on the stats card, you should [deploy your own instance](#deploy-on-your-own) using your own GitHub API token.
+_注: 等级基于用户的统计信息计算得出，详见 [src/calculateRank.js](../src/calculateRank.js)_
 
-> [!NOTE]\
-> Available ranks are S (top 1%), A+ (12.5%), A (25%), A- (37.5%), B+ (50%), B (62.5%), B- (75%), C+ (87.5%) and C (everyone). This ranking scheme is based on the [Japanese academic grading](https://wikipedia.org/wiki/Academic_grading_in_Japan) system. The global percentile is calculated as a weighted sum of percentiles for each statistic (number of commits, pull requests, reviews, issues, stars, and followers), based on the cumulative distribution function of the [exponential](https://wikipedia.org/wiki/exponential_distribution) and the [log-normal](https://wikipedia.org/wiki/Log-normal_distribution) distributions. The implementation can be investigated at [src/calculateRank.js](https://github.com/anuraghazra/github-readme-stats/blob/master/src/calculateRank.js). The circle around the rank shows 100 minus the global percentile.
+### 隐藏指定统计
 
-### Hiding individual stats
+想要隐藏指定统计信息，你可以调用参数 `?hide=`，其值用 `,` 分隔。
 
-You can pass a query parameter `&hide=` to hide any specific stats with comma-separated values.
-
-> Options: `&hide=stars,commits,prs,issues,contribs`
+> 选项：`&hide=stars,commits,prs,issues,contribs`
 
 ```md
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,prs)
 ```
 
-### Showing additional individual stats
+### 将私人项目贡献添加到总提交计数中
 
-You can pass a query parameter `&show=` to show any specific additional stats with comma-separated values.
+你可以使用参数 `?count_private=true` 把私人贡献计数添加到总提交计数中。
 
-> Options: `&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage`
+_注：如果你是自己部署本项目，私人贡献将会默认被计数，如果不是自己部署，你需要分享你的私人贡献计数。_
+
+> 选项: `&count_private=true`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&count_private=true)
 ```
 
-### Showing icons
+### 显示图标
 
-To enable icons, you can pass `&show_icons=true` in the query param, like so:
+如果想要显示图标，你可以调用 `show_icons=true` 参数，像这样：
 
 ```md
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true)
 ```
 
-### Themes
+### 主题
 
-With inbuilt themes, you can customize the look of the card without doing any [manual customization](#customization).
+你可以通过现有的主题进行卡片个性化，省去[手动自定义](#自定义)的麻烦。
 
-Use `&theme=THEME_NAME` parameter like so :
+通过调用 `?theme=THEME_NAME` 参数，像这样：
 
 ```md
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
 ```
 
-#### All inbuilt themes
+#### 所有现有主题
 
-GitHub Readme Stats comes with several built-in themes (e.g. `dark`, `radical`, `merko`, `gruvbox`, `tokyonight`, `onedark`, `cobalt`, `synthwave`, `highcontrast`, `dracula`).
+dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontrast, dracula
 
-<img src="https://res.cloudinary.com/anuraghazra/image/upload/v1595174536/grs-themes_l4ynja.png" alt="GitHub Readme Stats Themes" width="600px"/>
+<img src="https://res.cloudinary.com/anuraghazra/image/upload/v1595174536/grs-themes_l4ynja.png" alt="GitHub Readme Stat Themes" width="600px"/>
 
-You can look at a preview for [all available themes](themes/README.md) or checkout the [theme config file](themes/index.js). Please note that we paused the addition of new themes to decrease maintenance efforts; all pull requests related to new themes will be closed.
+你可以预览[所有可用主题](../themes/README.md)或者签出[主题配置文件](../themes/index.js), 而且如果你喜欢, **你也可以贡献新的主题** :D
 
-#### Responsive Card Theme
+### 自定义
 
-[![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=anuraghazra\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#responsive-card-theme#gh-dark-mode-only)
-[![Anurag's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=anuraghazra\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#responsive-card-theme#gh-light-mode-only)
+你可以通过使用 URL 参数的方式，为你的 `Stats Card` 或 `Repo Card` 自定义样式。
 
-Since GitHub will re-upload the cards and serve them from their [CDN](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-anonymized-urls), we can not infer the browser/GitHub theme on the server side. There are, however, four methods you can use to create dynamics themes on the client side.
+常用选项：
 
-##### Use the transparent theme
+- `title_color` - 卡片标题颜色 _（十六进制色码）_
+- `text_color` - 内容文本颜色 _（十六进制色码）_
+- `icon_color` - 图标颜色（如果可用）_（十六进制色码）_
+- `bg_color` - 卡片背景颜色 _（十六进制色码）_ **或者** 以 _angle,start,end_ 的形式渐变
+- `hide_border` - 隐藏卡的边框 _(布尔值)_
+- `theme` - 主题名称，从[所有可用主题](../themes/README.md)中选择
+- `cache_seconds` - 手动设置缓存头 _（最小值: 14400，最大值: 86400）_
+- `locale` - 在卡片中设置语言 _(例如 cn, de, es, 等等)_
 
-We have included a `transparent` theme that has a transparent background. This theme is optimized to look good on GitHub's dark and light default themes. You can enable this theme using the `&theme=transparent` parameter like so:
+##### bg_color 渐变
 
-```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=transparent)
+你可以在 bg_color 选项中提供多个逗号分隔的值来呈现渐变，渐变的格式是 :-
+
+```
+&bg_color=DEG,COLOR1,COLOR2,COLOR3...COLOR10
 ```
 
-<details>
-<summary>:eyes: Show example</summary>
+> 缓存的注意事项: 如果 fork 数和 star 数 少于 1k , Repo 卡片默认缓存是 4 小时 （14400 秒） ，否则是 2 小时（7200）。另请注意缓存被限制为最短 2 小时，最长 24 小时。
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&show_icons=true\&theme=transparent)
+#### 统计卡片专属选项:
 
-</details>
+- `hide` - 隐藏特定统计信息 _(以逗号分隔)_
+- `hide_title` - _(boolean)_
+- `hide_rank` - _(boolean)_
+- `show_icons` - _(boolean)_
+- `include_all_commits` - 统计总提交次数而不是仅统计今年的提交次数 _(boolean)_
+- `count_private` - 统计私人提交 _(boolean)_
+- `line_height` - 设置文本之间的行高 _(number)_
 
-##### Add transparent alpha channel to a themes bg\_color
+#### Repo 卡片专属选项:
 
-You can use the `bg_color` parameter to make any of [the available themes](themes/README.md) transparent. This is done by setting the `bg_color` to a color with a transparent alpha channel (i.e. `bg_color=00000000`):
+- `show_owner` - 显示 Repo 的所有者名字 _(boolean)_
 
-```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&bg_color=00000000)
-```
+#### 语言卡片专属选项:
 
-<details>
-<summary>:eyes: Show example</summary>
+- `hide` - 从卡片中隐藏指定语言 _(Comma seperated values)_
+- `hide_title` - _(boolean)_
+- `layout` - 提供五种布局 `normal` & `compact` & `donut` & `donut-vertical` & `pie` 间切换
+- `card_width` - 手动设置卡片的宽度 _(number)_
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&show_icons=true\&bg_color=00000000)
+> :warning: **重要:**
+> 如 [Percent Encoding](https://en.wikipedia.org/wiki/Percent-encoding) 所指定，语言名称应使用 uri 转义。
+> (例: `c++` 应该是 `c%2B%2B`, `jupyter notebook` 应该是 `jupyter%20notebook`, 等.)
 
-</details>
+---
 
-##### Use GitHub's theme context tag
+# GitHub 更多置顶
 
-You can use [GitHub's theme context](https://github.blog/changelog/2021-11-24-specify-theme-context-for-images-in-markdown/) tags to switch the theme based on the user GitHub theme automatically. This is done by appending `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of an image URL. This tag will define whether the image specified in the markdown is only shown to viewers using a light or a dark GitHub theme:
+GitHub 更多置顶 允许你在使用 GitHub readme profile 时，在个人资料中置顶多于 6 个 repo 。
 
-```md
-[![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
-[![Anurag's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
-```
+是的！你不再受限于置顶最多 6 个存储库了。
 
-<details>
-<summary>:eyes: Show example</summary>
+### 使用细则
 
-[![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=anuraghazra\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
-[![Anurag's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=anuraghazra\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
+复制粘贴这段代码到你的 README 文件中，并更改链接。
 
-</details>
-
-##### Use GitHub's new media feature
-
-You can use [GitHub's new media feature](https://github.blog/changelog/2022-05-19-specify-theme-context-for-images-in-markdown-beta/) in HTML to specify whether to display images for light or dark themes. This is done using the HTML `<picture>` element in combination with the `prefers-color-scheme` media feature.
-
-```html
-<picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=dark"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
-  <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
-</picture>
-```
-
-<details>
-<summary>:eyes: Show example</summary>
-
-<picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=dark"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
-  <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
-</picture>
-
-</details>
-
-### Customization
-
-You can customize the appearance of all your cards however you wish with URL parameters.
-
-#### Common Options
-
-| Name | Description | Type | Default value |
-| --- | --- | --- | --- |
-| `title_color` | Card's title color. | string (hex color) | `2f80ed` |
-| `text_color` | Body text color. | string (hex color) | `434d58` |
-| `icon_color` | Icons color if available. | string (hex color) | `4c71f2` |
-| `border_color` | Card's border color. Does not apply when `hide_border` is enabled. | string (hex color) | `e4e2e2` |
-| `bg_color` | Card's background color. | string (hex color or a gradient in the form of *angle,start,end*) | `fffefe` |
-| `hide_border` | Hides the card's border. | boolean | `false` |
-| `theme` | Name of the theme, choose from [all available themes](themes/README.md). | enum | `default` |
-| `cache_seconds` | Sets the cache header manually (min: 21600, max: 86400). | integer | `21600` |
-| `locale` | Sets the language in the card, you can check full list of available locales [here](#available-locales). | enum | `en` |
-| `border_radius` | Corner rounding on the card. | number | `4.5` |
-
-> [!WARNING]\
-> We use caching to decrease the load on our servers (see <https://github.com/anuraghazra/github-readme-stats/issues/1471#issuecomment-1271551425>). Our cards have a default cache of 6 hours (21600 seconds). Also, note that the cache is clamped to a minimum of 6 hours and a maximum of 24 hours. If you want the data on your statistics card to be updated more often you can [deploy your own instance](#deploy-on-your-own) and set [environment variable](#disable-rate-limit-protections) `CACHE_SECONDS` to a value of your choosing.
-
-##### Gradient in bg\_color
-
-You can provide multiple comma-separated values in the bg\_color option to render a gradient with the following format:
-
-    &bg_color=DEG,COLOR1,COLOR2,COLOR3...COLOR10
-
-##### Available locales
-
-Here is a list of all available locales:
-
-<table>
-<tr><td>
-
-| Code | Locale |
-| --- | --- |
-| `cn` | Chinese |
-| `zh-tw` | Chinese (Taiwan) |
-| `ar` | Arabic |
-| `cs` | Czech |
-| `de` | German |
-| `en` | English |
-| `bn` | Bengali |
-| `es` | Spanish |
-| `fr` | French |
-| `hu` | Hungarian |
-
-</td><td>
-
-| Code | Locale |
-| --- | --- |
-| `it` | Italian |
-| `ja` | Japanese |
-| `kr` | Korean |
-| `nl` | Dutch |
-| `pt-pt` | Portuguese (Portugal) |
-| `pt-br` | Portuguese (Brazil) |
-| `np` | Nepali |
-| `el` | Greek |
-| `ru` | Russian |
-| `uk-ua` | Ukrainian |
-
-</td><td>
-
-| Code | Locale |
-| --- | --- |
-| `id` | Indonesian |
-| `ml` | Malayalam |
-| `my` | Burmese |
-| `sk` | Slovak |
-| `tr` | Turkish |
-| `pl` | Polish |
-| `uz` | Uzbek |
-| `vi` | Vietnamese |
-| `se` | Swedish |
-
-</td></tr>
-</table>
-
-If we don't support your language, please consider contributing! You can find more information about how to do it in our [contributing guidelines](CONTRIBUTING.md#translations-contribution).
-
-#### Stats Card Exclusive Options
-
-| Name | Description | Type | Default value |
-| --- | --- | --- | --- |
-| `hide` | Hides the [specified items](#hiding-individual-stats) from stats. | string (comma-separated values) | `null` |
-| `hide_title` | Hides the title of your stats card. | boolean | `false` |
-| `card_width` | Sets the card's width manually. | number | `500px  (approx.)` |
-| `hide_rank` | Hides the rank and automatically resizes the card width. | boolean | `false` |
-| `rank_icon` | Shows alternative rank icon (i.e. `github`, `percentile` or `default`). | enum | `default` |
-| `show_icons` | Shows icons near all stats. | boolean | `false` |
-| `include_all_commits` | Count total commits instead of just the current year commits. | boolean | `false` |
-| `line_height` | Sets the line height between text. | integer | `25` |
-| `exclude_repo` | Excludes specified repositories. | string (comma-separated values) | `null` |
-| `custom_title` | Sets a custom title for the card. | string | `<username> GitHub Stats` |
-| `text_bold` | Uses bold text. | boolean | `true` |
-| `disable_animations` | Disables all animations in the card. | boolean | `false` |
-| `ring_color` | Color of the rank circle. | string (hex color) | `2f80ed` |
-| `number_format` | Switches between two available formats for displaying the card values `short` (i.e. `6.6k`) and `long` (i.e. `6626`). | enum | `short` |
-| `show` | Shows [additional items](#showing-additional-individual-stats) on stats card (i.e. `reviews`, `discussions_started`, `discussions_answered`, `prs_merged` or `prs_merged_percentage`). | string (comma-separated values) | `null` |
-
-> [!NOTE]\
-> When hide\_rank=`true`, the minimum card width is 270 px + the title length and padding.
-
-#### Repo Card Exclusive Options
-
-| Name | Description | Type | Default value |
-| --- | --- | --- | --- |
-| `show_owner` | Shows the repo's owner name. | boolean | `false` |
-| `description_lines_count` | Manually set the number of lines for the description. Specified value will be clamped between 1 and 3. If this parameter is not specified, the number of lines will be automatically adjusted according to the actual length of the description. | number | `null` |
-
-#### Gist Card Exclusive Options
-
-| Name | Description | Type | Default value |
-| --- | --- | --- | --- |
-| `show_owner` | Shows the gist's owner name. | boolean | `false` |
-
-#### Language Card Exclusive Options
-
-| Name | Description | Type | Default value |
-| --- | --- | --- | --- |
-| `hide` | Hides the [specified languages](#hide-individual-languages) from card. | string (comma-separated values) | `null` |
-| `hide_title` | Hides the title of your card. | boolean | `false` |
-| `layout` | Switches between five available layouts `normal` & `compact` & `donut` & `donut-vertical` & `pie`. | enum | `normal` |
-| `card_width` | Sets the card's width manually. | number | `300` |
-| `langs_count` | Shows more languages on the card, between 1-20. | integer | `5` for `normal` and `donut`, `6` for other layouts |
-| `exclude_repo` | Excludes specified repositories. | string (comma-separated values) | `null` |
-| `custom_title` | Sets a custom title for the card. | string | `Most Used Languages` |
-| `disable_animations` | Disables all animations in the card. | boolean | `false` |
-| `hide_progress` | Uses the compact layout option, hides percentages, and removes the bars. | boolean | `false` |
-| `size_weight` | Configures language stats algorithm (see [Language stats algorithm](#language-stats-algorithm)). | integer | `1` |
-| `count_weight` | Configures language stats algorithm (see [Language stats algorithm](#language-stats-algorithm)). | integer | `0` |
-
-> [!WARNING]\
-> Language names should be URI-escaped, as specified in [Percent Encoding](https://en.wikipedia.org/wiki/Percent-encoding)
-> (i.e: `c++` should become `c%2B%2B`, `jupyter notebook` should become `jupyter%20notebook`, etc.) You can use
-> [urlencoder.org](https://www.urlencoder.org/) to help you do this automatically.
-
-#### WakaTime Card Exclusive Options
-
-| Name | Description | Type | Default value |
-| --- | --- | --- | --- |
-| `hide` | Hides the languages specified from the card. | string (comma-separated values) | `null` |
-| `hide_title` | Hides the title of your card. | boolean | `false` |
-| `line_height` | Sets the line height between text. | integer | `25` |
-| `hide_progress` | Hides the progress bar and percentage. | boolean | `false` |
-| `custom_title` | Sets a custom title for the card. | string | `WakaTime Stats` |
-| `layout` | Switches between two available layouts `default` & `compact`. | enum | `default` |
-| `langs_count` | Limits the number of languages on the card, defaults to all reported languages. | integer | `null` |
-| `api_domain` | Sets a custom API domain for the card, e.g. to use services like [Hakatime](https://github.com/mujx/hakatime) or [Wakapi](https://github.com/muety/wakapi) | string | `wakatime.com` |
-| `display_format` | Sets the WakaTime stats display format. Choose `time` to display time-based stats or `percent` to show percentages. | enum | `time` |
-| `disable_animations` | Disables all animations in the card. | boolean | `false` |
-
-***
-
-# GitHub Extra Pins
-
-GitHub extra pins allow you to pin more than 6 repositories in your profile using a GitHub readme profile.
-
-Yay! You are no longer limited to 6 pinned repositories.
-
-### Usage
-
-Copy-paste this code into your readme and change the links.
-
-Endpoint: `api/pin?username=anuraghazra&repo=github-readme-stats`
+端点: `api/pin?username=anuraghazra&repo=github-readme-stats`
 
 ```md
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
@@ -456,275 +210,99 @@ Endpoint: `api/pin?username=anuraghazra&repo=github-readme-stats`
 
 ### Demo
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra\&repo=github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
 
-Use [show\_owner](#repo-card-exclusive-options) query option to include the repo's owner username
+使用 [show_owner](#自定义) 变量将 Repo 所有者的用户名包含在内。
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra\&repo=github-readme-stats\&show_owner=true)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&show_owner=true)](https://github.com/anuraghazra/github-readme-stats)
 
-# GitHub Gist Pins
+# 热门语言卡片
 
-GitHub gist pins allow you to pin gists in your GitHub profile using a GitHub readme profile.
+热门语言卡片显示了 GitHub 用户常用的编程语言。
 
-### Usage
+_注意：热门语言并不表示我的技能水平或类似的水平，它是用来衡量用户在 github 上拥有最多代码的语言的一项指标，它是 github-readme-stats 的新特性_
 
-Copy-paste this code into your readme and change the links.
+### 使用细则
 
-Endpoint: `api/gist?id=bbfce31e0217a3689c8d961a356cb10d`
+将此代码复制粘贴到您的 `README.md` 文件中，并修改链接。
 
-```md
-[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://gist.github.com/Yizack/bbfce31e0217a3689c8d961a356cb10d/)
-```
-
-### Demo
-
-![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
-
-Use [show\_owner](#gist-card-exclusive-options) query option to include the gist's owner username
-
-![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d\&show_owner=true)
-
-# Top Languages Card
-
-The top languages card shows a GitHub user's most frequently used languages.
-
-> [!WARNING]\
-> By default, the language card shows language results only from public repositories. To include languages used in private repositories, you should [deploy your own instance](#deploy-on-your-own) using your own GitHub API token.
-
-> [!NOTE]\
-> Top Languages does not indicate the user's skill level or anything like that; it's a GitHub metric to determine which languages have the most code on GitHub. It is a new feature of github-readme-stats.
-
-> [!WARNING]\
-> This card shows language usage only inside your own non-forked repositories, not depending on who the author of the commits is. It does not include your contributions into another users/organizations repositories. Currently there are no way to get this data from GitHub API. If you want this behavior to be improved you can support [this feature request](https://github.com/orgs/community/discussions/18230) created by [@rickstaa](https://github.com/rickstaa) inside GitHub Community.
-
-> [!WARNING]\
-> Currently this card shows data only about first 100 repositories. This is because GitHub API limitations which cause downtimes of public instances (see [#1471](https://github.com/anuraghazra/github-readme-stats/issues/1471)). In future this behavior will be improved by releasing GitHub action or providing environment variables for user's own instances.
-
-### Usage
-
-Copy-paste this code into your readme and change the links.
-
-Endpoint: `api/top-langs?username=anuraghazra`
+端点: `api/top-langs?username=anuraghazra`
 
 ```md
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
-### Language stats algorithm
+### 隐藏指定语言
 
-We use the following algorithm to calculate the languages percentages on the language card:
-
-```js
-ranking_index = (byte_count ^ size_weight) * (repo_count ^ count_weight)
-```
-
-By default, only the byte count is used for determining the languages percentages shown on the language card (i.e. `size_weight=1` and `count_weight=0`). You can, however, use the `&size_weight=` and `&count_weight=` options to weight the language usage calculation. The values must be positive real numbers. [More details about the algorithm can be found here](https://github.com/anuraghazra/github-readme-stats/issues/1600#issuecomment-1046056305).
-
-*   `&size_weight=1&count_weight=0` - *(default)* Orders by byte count.
-*   `&size_weight=0.5&count_weight=0.5` - *(recommended)* Uses both byte and repo count for ranking
-*   `&size_weight=0&count_weight=1` - Orders by repo count
+可以使用 `?hide=language1,language2` 参数来隐藏指定的语言。
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&size_weight=0.5&count_weight=0.5)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide=javascript,html)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
-### Exclude individual repositories
+### 紧凑的语言卡片布局
 
-You can use the `&exclude_repo=repo1,repo2` parameter to exclude individual repositories.
-
-```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&exclude_repo=github-readme-stats,anuraghazra.github.io)
-```
-
-### Hide individual languages
-
-You can use `&hide=language1,language2` parameter to hide individual languages.
+你可以使用 `&layout=compact` 参数来改变卡片的样式。
 
 ```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide=javascript,html)
-```
-
-### Show more languages
-
-You can use the `&langs_count=` option to increase or decrease the number of languages shown on the card. Valid values are integers between 1 and 20 (inclusive). By default it was set to `5` for `normal` & `donut` and `6` for other layouts.
-
-```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&langs_count=8)
-```
-
-### Compact Language Card Layout
-
-You can use the `&layout=compact` option to change the card design.
-
-```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)
-```
-
-### Donut Chart Language Card Layout
-
-You can use the `&layout=donut` option to change the card design.
-
-```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
-```
-
-### Donut Vertical Chart Language Card Layout
-
-You can use the `&layout=donut-vertical` option to change the card design.
-
-```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats)
-```
-
-### Pie Chart Language Card Layout
-
-You can use the `&layout=pie` option to change the card design.
-
-```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
-```
-
-### Hide Progress Bars
-
-You can use the `&hide_progress=true` option to hide the percentages and the progress bars (layout will be automatically set to `compact`).
-
-```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide_progress=true)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
 ### Demo
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 
-*   Compact layout
+- 紧凑布局
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra\&layout=compact)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-*   Donut Chart layout
+---
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra\&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+### 全部 Demos
 
-*   Donut Vertical Chart layout
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra\&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats)
-
-*   Pie Chart layout
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra\&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
-
-*   Hidden progress bars
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra\&hide_progress=true)
-
-# WakaTime Stats Card
-
-> [!WARNING]\
-> Please be aware that we currently only show data from WakaTime profiles that are public. You therefore have to make sure that **BOTH** `Display code time publicly` and `Display languages, editors, os, categories publicly` are enabled.
-
-Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
-
-```md
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/anuraghazra/github-readme-stats)
-```
-
-### Demo
-
-![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)
-
-![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs\&hide_progress=true)
-
-*   Compact layout
-
-![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
-
-***
-
-# All Demos
-
-*   Default
+- 默认
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
 
-*   Hiding specific stats
+- 隐藏指定统计
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&hide=contribs,issues)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,issues)
 
-*   Showing additional stats
+- 显示图标
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=issues&show_icons=true)
 
-*   Showing icons
+- 包含全部提交
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&hide=issues\&show_icons=true)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&include_all_commits=true)
 
-*   Shows Github logo instead rank level
+- 主题
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&rank_icon=github)
+从[默认主题](#主题)中进行选择
 
-*   Shows user rank percentile instead of rank level
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&rank_icon=percentile)
+- 渐变
 
-*   Customize Border Color
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&border_color=2e4058)
+- 自定义统计卡片
 
-*   Include All Commits
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=anuraghazra&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&include_all_commits=true)
+- 自定义 repo 卡片
 
-*   Themes
+![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=anuraghazra&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
-Choose from any of the [default themes](#themes)
+- 热门语言
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&show_icons=true\&theme=radical)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 
-*   Gradient
+---
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
+### 快速提示 (对齐 Repo 卡片)
 
-*   Customizing stats card
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=anuraghazra\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
-
-*   Setting card locale
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=anuraghazra\&locale=es)
-
-*   Customizing repo card
-
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=anuraghazra\&repo=github-readme-stats\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
-
-*   Gist card
-
-![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)
-
-*   Customizing gist card
-
-![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d&theme=calm)
-
-*   Top languages
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)
-
-*   WakaTime card
-
-![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)
-
-***
-
-## Quick Tip (Align The Cards)
-
-By default, GitHub does not lay out the cards side by side. To do that, you can use this approach:
-
-```html
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=anuraghazra" />
-</a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=anuraghazra&layout=compact&langs_count=8&card_width=320" />
-</a>
-```
+你通常无法将图片靠边显示。为此，您可以使用以下方法：
 
 ```html
 <a href="https://github.com/anuraghazra/github-readme-stats">
@@ -735,111 +313,53 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 </a>
 ```
 
-<details>
-<summary>:eyes: Show example</summary>
+## 自己部署
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=anuraghazra" />
-</a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=anuraghazra&layout=compact&langs_count=8&card_width=320" />
-</a>
+#### [查看分步视频教程 作者：@codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
-***
+因为 GitHub 的 API 每个小时只允许 5 千次请求，我的 `https://github-readme-stats.vercel.app/api` 很有可能会触发限制。如果你将其托管在自己的 Vercel 服务器上，那么你就不必为此担心。点击 deploy 按钮来开始你的部署！
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats" />
-</a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=convoychat" />
-</a>
-
-</details>
-
-# Deploy on your own
-
-## On Vercel
-
-### :film\_projector: [Check Out Step By Step Video Tutorial By @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
-
-Since the GitHub API only allows 5k requests per hour, my `https://github-readme-stats.vercel.app/api` could possibly hit the rate limiter. If you host it on your own Vercel server, then you do not have to worry about anything. Click on the deploy button to get started!
-
-> [!NOTE]\
-> Since [#58](https://github.com/anuraghazra/github-readme-stats/pull/58), we should be able to handle more than 5k requests and have fewer issues with downtime :grin:.
-
-> [!NOTE]\
-> If you are on the [Pro (i.e. paid)](https://vercel.com/pricing) Vercel plan, the [maxDuration](https://vercel.com/docs/concepts/projects/project-configuration#value-definition) value found in the [vercel.json](https://github.com/anuraghazra/github-readme-stats/blob/master/vercel.json) can be increased when your Vercel instance frequently times out during the card request. You are advised to keep this value lower than `30` seconds to prevent high memory usage.
+注意: 从 [#58](https://github.com/anuraghazra/github-readme-stats/pull/58) 开始，我们应该能够处理超过 5 千次的请求，并且不会出现宕机问题 :D
 
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/anuraghazra/github-readme-stats)
 
 <details>
- <summary><b>:hammer_and_wrench: Step-by-step guide on setting up your own Vercel instance</b></summary>
+ <summary>设置 Vercel 的指导</summary>
 
-1.  Go to [vercel.com](https://vercel.com/).
-2.  Click on `Log in`.
-    ![](https://files.catbox.moe/pcxk33.png)
-3.  Sign in with GitHub by pressing `Continue with GitHub`.
-    ![](https://files.catbox.moe/b9oxey.png)
-4.  Sign in to GitHub and allow access to all repositories if prompted.
-5.  Fork this repo.
-6.  Go back to your [Vercel dashboard](https://vercel.com/dashboard).
-7.  To import a project, click the `Add New...` button and select the `Project` option.
-    ![](https://files.catbox.moe/3n76fh.png)
-8.  Click the `Continue with GitHub` button, search for the required Git Repository and import it by clicking the `Import` button. Alternatively, you can import a Third-Party Git Repository using the `Import Third-Party Git Repository ->` link at the bottom of the page.
-    ![](https://files.catbox.moe/mg5p04.png)
-9.  Create a personal access token (PAT) [here](https://github.com/settings/tokens/new) and enable the `repo` and `user` permissions (this allows access to see private repo and user stats).
-10. Add the PAT as an environment variable named `PAT_1` (as shown).
-    ![](https://files.catbox.moe/0yclio.png)
-11. Click deploy, and you're good to go. See your domains to use the API!
+1. 前往 [vercel.com](https://vercel.com/)
+1. 点击 `Log in`
+   ![](https://files.catbox.moe/tct1wg.png)
+1. 点击 `Continue with GitHub` 通过 GitHub 进行登录
+   ![](https://files.catbox.moe/btd78j.jpeg)
+1. 登录 GitHub 并允许访问所有存储库（如果系统这样提示）
+1. Fork 这个仓库
+1. 返回到你的 [Vercel dashboard](https://vercel.com/dashboard)
+1. 选择 `Import Project`
+   ![](https://files.catbox.moe/qckos0.png)
+1. 选择 `Import Git Repository`
+   ![](https://files.catbox.moe/pqub9q.png)
+1. 选择 root 并将所有内容保持不变，并且只需添加名为 PAT_1 的环境变量（如图所示），其中将包含一个个人访问令牌（PAT），你可以在[这里](https://github.com/settings/tokens/new)轻松创建（保留默认，并且只需要命名下，名字随便）
+   ![](https://files.catbox.moe/0ez4g7.png)
+1. 点击 deploy，这就完成了，查看你的域名就可使用 API 了！
 
 </details>
 
-## On other platforms
+## :sparkling_heart: 支持这个项目
 
-> [!WARNING]\
-> This way of using GRS is not officially supported and was added to cater to some particular use cases where Vercel could not be used (e.g. [#2341](https://github.com/anuraghazra/github-readme-stats/discussions/2341)). The support for this method, therefore, is limited.
+我尽己所能地进行开源，并且我尽量回复每个在使用项目时需要帮助的人。很明显，这需要时间，但你可以免费享受这些。
 
-<details>
-<summary><b>:hammer_and_wrench: Step-by-step guide for deploying on other platforms</b></summary>
+然而, 如果你正在使用这个项目并感觉良好，或只是想要支持我继续开发，你可以通过如下方式：
 
-1.  Fork or clone this repo as per your needs
-2.  Add `express` to the dependencies section of `package.json`
-    <https://github.com/anuraghazra/github-readme-stats/blob/ba7c2f8b55eac8452e479c8bd38b044d204d0424/package.json#L54-L61>
-3.  Run `npm i` if needed (initial setup)
-4.  Run `node express.js` to start the server, or set the entry point to `express.js` in `package.json` if you're deploying on a managed service
-    <https://github.com/anuraghazra/github-readme-stats/blob/ba7c2f8b55eac8452e479c8bd38b044d204d0424/package.json#L11>
-5.  You're done 🎉
-    </details>
+- 在你的 readme 中使用 github-readme-stats 时，链接指向这里 :D
+- Star 并 分享这个项目 :rocket:
+- [![paypal.me/anuraghazra](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/anuraghazra) - 你可以通过 PayPal 一次性捐款. 我多半会买一杯 ~~咖啡~~ 茶. :tea:
 
-## Disable rate limit protections
+谢谢！ :heart:
 
-Github Readme Stats contains several Vercel environment variables that can be used to remove the rate limit protections:
+---
 
-*   `CACHE_SECONDS`: This environment variable takes precedence over our cache minimum and maximum values and can circumvent these values for self-hosted Vercel instances.
+[![https://vercel.com?utm_source=github_readme_stats_team&utm_campaign=oss](../powered-by-vercel.svg)](https://vercel.com?utm_source=github_readme_stats_team&utm_campaign=oss)
 
-See [the Vercel documentation](https://vercel.com/docs/concepts/projects/environment-variables) on adding these environment variables to your Vercel instance.
+欢迎贡献！ <3
 
-## Keep your fork up to date
-
-You can keep your fork, and thus your private Vercel instance up to date with the upstream using GitHub's [Sync Fork button](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork). You can also use the [pull](https://github.com/wei/pull) package created by [@wei](https://github.com/wei) to automate this process.
-
-# :sparkling\_heart: Support the project
-
-I open-source almost everything I can and try to reply to everyone needing help using these projects. Obviously,
-this takes time. You can use this service for free.
-
-However, if you are using this project and are happy with it or just want to encourage me to continue creating stuff, there are a few ways you can do it:
-
-*   Giving proper credit when you use github-readme-stats on your readme, linking back to it. :D
-*   Starring and sharing the project. :rocket:
-*   [![paypal.me/anuraghazra](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/anuraghazra) - You can make a one-time donations via PayPal. I'll probably buy a ~~coffee~~ tea. :tea:
-
-Thanks! :heart:
-
-***
-
-[![https://vercel.com?utm\_source=github\_readme\_stats\_team\&utm\_campaign=oss](powered-by-vercel.svg)](https://vercel.com?utm_source=github_readme_stats_team\&utm_campaign=oss)
-
-Contributions are welcome! <3
-
-Made with :heart: and JavaScript.
+用 :heart: 发电，用 JavaScript 制作。
